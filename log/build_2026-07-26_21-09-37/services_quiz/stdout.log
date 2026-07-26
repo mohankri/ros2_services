@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target turn_s_client_executable[0m
+[ 50%] Built target turn_s_server_executable
+[ 75%] [32mBuilding CXX object CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o[0m

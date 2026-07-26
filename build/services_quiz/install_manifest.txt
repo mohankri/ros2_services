@@ -1,0 +1,17 @@
+/home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_client_executable
+/home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_server_executable
+/home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/package_run_dependencies/services_quiz
+/home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/parent_prefix_path/services_quiz
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/ament_prefix_path.sh
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/ament_prefix_path.dsv
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/path.sh
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/path.dsv
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.bash
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.sh
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.zsh
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.dsv
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.dsv
+/home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/packages/services_quiz
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/cmake/services_quizConfig.cmake
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/cmake/services_quizConfig-version.cmake
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.xml

@@ -1,0 +1,312 @@
+[0.120s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.120s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, lookup_in_workspace=False, cargo_args=None, clean_build=False, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f66fd845cc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f66fd845150>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f66fd845150>>, mixin_verb=('build',))
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.317s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_ws/src'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ament_cargo']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ament_cargo'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cargo', 'cmake', 'python']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cargo'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extensions ['ament_cargo']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extension 'ament_cargo'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extension 'ros'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extensions ['cargo', 'cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extension 'cargo'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extensions ['ament_cargo']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extension 'ament_cargo'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extensions ['cargo', 'cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extension 'cargo'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/plant_detector) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extensions ['ament_cargo']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extension 'ament_cargo'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extensions ['cargo', 'cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extension 'cargo'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(basic_ros2_extra_files/text_detector) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ament_cargo']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ament_cargo'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(mars_rover_tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(mars_rover_tasks) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(mars_rover_tasks) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(mars_rover_tasks) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(mars_rover_tasks) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(mars_rover_tasks) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(mars_rover_tasks) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(mars_rover_tasks) by extensions ['ament_cargo']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(mars_rover_tasks) by extension 'ament_cargo'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(mars_rover_tasks) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(mars_rover_tasks) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'mars_rover_tasks' with type 'ros.ament_cmake' and name 'mars_rover_tasks'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz) by extensions ['ament_cargo']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz) by extension 'ament_cargo'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'services_quiz' with type 'ros.ament_cmake' and name 'services_quiz'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz_srv) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz_srv) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz_srv) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz_srv) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz_srv) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz_srv) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz_srv) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz_srv) by extensions ['ament_cargo']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz_srv) by extension 'ament_cargo'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz_srv) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(services_quiz_srv) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'services_quiz_srv' with type 'ros.ament_cmake' and name 'services_quiz_srv'
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'lookup_in_workspace' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cargo_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'clean_build' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.368s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/src/build/custom_interfaces', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/src/install/custom_interfaces', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'lookup_in_workspace' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'cargo_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'clean_build' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'cmake_target' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_tasks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'mars_rover_tasks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/src/build/mars_rover_tasks', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/src/install/mars_rover_tasks', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/mars_rover_tasks', 'symlink_install': False, 'test_result_base': None}
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'lookup_in_workspace' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'cargo_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'clean_build' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'cmake_target' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'cmake_clean_first' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'cmake_force_configure' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'ament_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.370s] DEBUG:colcon.colcon_core.verb:Building package 'services_quiz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/src/build/services_quiz', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/src/install/services_quiz', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/services_quiz', 'symlink_install': False, 'test_result_base': None}
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'lookup_in_workspace' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'cargo_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'clean_build' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'cmake_target' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'cmake_clean_first' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'cmake_force_configure' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'ament_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'services_quiz_srv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.371s] DEBUG:colcon.colcon_core.verb:Building package 'services_quiz_srv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/src/build/services_quiz_srv', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/src/install/services_quiz_srv', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/services_quiz_srv', 'symlink_install': False, 'test_result_base': None}
+[0.371s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.372s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/custom_interfaces' with build type 'ament_cmake'
+[0.372s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/custom_interfaces'
+[0.374s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.382s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/mars_rover_tasks' with build type 'ament_cmake'
+[0.382s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/mars_rover_tasks'
+[0.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.389s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/services_quiz' with build type 'ament_cmake'
+[0.389s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/services_quiz'
+[0.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.396s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/services_quiz_srv' with build type 'ament_cmake'
+[0.396s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/services_quiz_srv'
+[0.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/custom_interfaces -- -j8 -l8
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/build/mars_rover_tasks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/mars_rover_tasks -- -j8 -l8
+[0.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/build/services_quiz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/services_quiz -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/services_quiz
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/build/services_quiz_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/services_quiz_srv -- -j8 -l8
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/build/mars_rover_tasks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/mars_rover_tasks -- -j8 -l8
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/build/mars_rover_tasks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/mars_rover_tasks
+[0.624s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mars_rover_tasks)
+[0.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/build/mars_rover_tasks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/mars_rover_tasks
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks' for CMake module files
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks' for CMake config files
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars_rover_tasks', 'cmake_prefix_path')
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/hook/cmake_prefix_path.ps1'
+[0.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/hook/cmake_prefix_path.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/hook/cmake_prefix_path.sh'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks/lib'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks/bin'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks/lib/pkgconfig/mars_rover_tasks.pc'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks/lib/python3.10/site-packages'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks/bin'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.ps1'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.dsv'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.sh'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.bash'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.zsh'
+[0.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/install/mars_rover_tasks/share/colcon-core/packages/mars_rover_tasks)
+[0.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mars_rover_tasks)
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks' for CMake module files
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks' for CMake config files
+[0.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars_rover_tasks', 'cmake_prefix_path')
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/hook/cmake_prefix_path.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/hook/cmake_prefix_path.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/hook/cmake_prefix_path.sh'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks/lib'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks/bin'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks/lib/pkgconfig/mars_rover_tasks.pc'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks/lib/python3.10/site-packages'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/mars_rover_tasks/bin'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.ps1'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.sh'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.bash'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.zsh'
+[0.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/install/mars_rover_tasks/share/colcon-core/packages/mars_rover_tasks)
+[0.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/custom_interfaces -- -j8 -l8
+[1.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/custom_interfaces
+[1.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/custom_interfaces' for CMake module files
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/custom_interfaces' for CMake config files
+[1.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/custom_interfaces
+[1.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/custom_interfaces/lib'
+[1.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/custom_interfaces/bin'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/custom_interfaces/lib/python3.10/site-packages'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/custom_interfaces/bin'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/package.sh'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/package.bash'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[1.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[1.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/build/services_quiz' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/services_quiz -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/services_quiz
+[1.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(services_quiz)
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/services_quiz' for CMake module files
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/services_quiz' for CMake config files
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/services_quiz/bin'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/services_quiz/lib/pkgconfig/services_quiz.pc'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/services_quiz/lib/python3.10/site-packages'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/install/services_quiz/bin'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.ps1'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.dsv'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.sh'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.bash'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.zsh'
+[1.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/install/services_quiz/share/colcon-core/packages/services_quiz)
+[1.511s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.511s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.511s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.512s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.517s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.518s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.520s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.520s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.520s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/install/local_setup.ps1'
+[1.522s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/src/install/_local_setup_util_ps1.py'
+[1.523s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/install/setup.ps1'
+[1.525s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/install/local_setup.sh'
+[1.525s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/src/install/_local_setup_util_sh.py'
+[1.526s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/install/setup.sh'
+[1.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/install/local_setup.bash'
+[1.528s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/install/setup.bash'
+[1.530s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/install/local_setup.zsh'
+[1.530s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/install/setup.zsh'

@@ -1,0 +1,4 @@
+[ 25%] Built target text_recog_executable
+[ 50%] Built target mars_rover_s_server_executable
+[ 62%] [32mBuilding CXX object CMakeFiles/text_recog_s_client_executable.dir/src/text_recog_s_client.cpp.o[0m
+[ 87%] Built target text_recog_s_server_executable

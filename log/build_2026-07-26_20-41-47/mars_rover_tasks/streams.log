@@ -1,0 +1,13 @@
+[0.031s] Invoking command in '/home/user/ros2_ws/src/build/mars_rover_tasks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/mars_rover_tasks -- -j8 -l8
+[0.096s] [ 12%] [32mBuilding CXX object CMakeFiles/text_recog_executable.dir/src/text_recog_node.cpp.o[0m
+[0.108s] [ 25%] [32mBuilding CXX object CMakeFiles/mars_rover_s_server_executable.dir/src/mars_rover_status_s_server.cpp.o[0m
+[0.108s] [ 37%] [32mBuilding CXX object CMakeFiles/text_recog_s_client_executable.dir/src/text_recog_s_client.cpp.o[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/text_recog_s_server_executable.dir/src/text_recog_s_server.cpp.o[0m
+[7.904s] [ 62%] [32m[1mLinking CXX executable text_recog_s_client_executable[0m
+[7.918s] [ 75%] [32m[1mLinking CXX executable mars_rover_s_server_executable[0m
+[8.424s] [ 75%] Built target text_recog_s_client_executable
+[8.527s] [ 75%] Built target mars_rover_s_server_executable
+[16.249s] [ 87%] [32m[1mLinking CXX executable text_recog_executable[0m
+[16.357s] [100%] [32m[1mLinking CXX executable text_recog_s_server_executable[0m
+[34.051s] [100%] Built target text_recog_executable
+[34.063s] [100%] Built target text_recog_s_server_executable

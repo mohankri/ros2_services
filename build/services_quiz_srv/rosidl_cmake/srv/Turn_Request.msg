@@ -1,0 +1,3 @@
+string direction               # Direction to spin (right or left)
+float64 angular_velocity       # Angular velocity in rad/s
+float64 time                   # Time in seconds

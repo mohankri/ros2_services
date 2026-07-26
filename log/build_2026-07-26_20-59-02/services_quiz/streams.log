@@ -1,0 +1,180 @@
+[0.024s] Invoking command in '/home/user/ros2_ws/src/build/services_quiz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/services_quiz -- -j8 -l8
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target turn_s_client_executable[0m
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target turn_s_server_executable[0m
+[0.120s] [ 25%] [32mBuilding CXX object CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o[0m
+[0.148s] [ 50%] [32mBuilding CXX object CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o[0m
+[0.551s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:44:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.551s]    44 | }
+[0.552s]       |  [01;31m[K^[m[K
+[0.593s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:28:1:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.593s]    28 | 
+[0.593s]       | [01;31m[K^[m[K
+[2.697s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:20:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K}[m[K' at end of input
+[2.697s]    26 |         RCLCPP_INFO[01;31m[K([m[Kthis->rclcpp::get_logger("Send Turn Service Request");
+[2.697s]       |                    [01;31m[K^[m[K
+[2.697s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:5:1:[m[K [01;36m[Knote: [m[Kto match this '[01m[K{[m[K'
+[2.697s]     5 | [01;36m[K{[m[K
+[2.697s]       | [01;36m[K^[m[K
+[2.704s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K In constructor '[01m[KTurnServiceClient::TurnServiceClient()[m[K':
+[2.704s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:10:9:[m[K [01;31m[Kerror: [m[K'[01m[Kclient_[m[K' was not declared in this scope
+[2.704s]    10 |         [01;31m[Kclient_[m[K = this->create_client<std_srvs::srv::Trigger>
+[2.704s]       |         [01;31m[K^~~~~~~[m[K
+[2.710s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:10:39:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+[2.710s]    10 |         client_ = this->create_client<[01;31m[Kstd_srvs[m[K::srv::Trigger>
+[2.710s]       |                                       [01;31m[K^~~~~~~~[m[K
+[2.710s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:10:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.710s]    10 |         client_ = this->[01;31m[Kcreate_client<std_srvs::srv::Trigger>[m[K
+[2.710s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.710s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:11:13:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[KTurnServiceClient::create_client<<expression error> >(std::string&)[m[K'
+[2.710s]    10 |         client_ = [01;31m[Kthis->create_client<std_srvs::srv::Trigger>[m[K
+[2.710s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.710s]    11 | [01;31m[K            (name_service)[m[K;
+[2.710s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.710s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.710s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.710s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.711s]                  from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:1[m[K:
+[2.711s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K'
+[2.711s]   252 |   [01;36m[Kcreate_client[m[K(
+[2.711s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[2.711s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.711s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:11:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.711s]    10 |         client_ = [01;31m[Kthis->create_client<std_srvs::srv::Trigger>[m[K
+[2.711s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.711s]    11 | [01;31m[K            (name_service)[m[K;
+[2.711s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.711s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:14:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator '[01m[Koperator""s[m[K'
+[2.711s]    14 |         while (!client_->wait_for_service([01;31m[K1s[m[K)) {
+[2.711s]       |                                           [01;31m[K^~[m[K
+[2.716s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:52:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+[2.716s]    21 |     void handle_turn_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+[2.716s]       |                                                    [01;31m[K^~~~~~~~[m[K
+[2.716s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.716s]    21 |     void handle_turn_request(const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+[2.717s]       |                                                                                   [01;31m[K^[m[K
+[2.717s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K In member function '[01m[Kvoid TurnServiceClient::send_turn_request()[m[K':
+[2.717s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:9:[m[K [01;31m[Kerror: [m[K'[01m[KRCLCPP_INFO[m[K' was not declared in this scope
+[2.717s]    26 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Send Turn Service Request");
+[2.717s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.717s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:20:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K}[m[K' at end of input
+[2.717s]    26 |         RCLCPP_INFO[01;31m[K([m[Kthis->rclcpp::get_logger("Send Turn Service Request");
+[2.717s]       |                    [01;31m[K^[m[K
+[2.717s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:25:30:[m[K [01;36m[Knote: [m[Kto match this '[01m[K{[m[K'
+[2.717s]    25 |     void send_turn_request() [01;36m[K{[m[K
+[2.717s]       |                              [01;36m[K^[m[K
+[2.717s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K At global scope:
+[2.717s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:20:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.717s]    26 |         RCLCPP_INFO[01;31m[K([m[Kthis->rclcpp::get_logger("Send Turn Service Request");
+[2.717s]       |                    [01;31m[K^[m[K
+[2.721s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:52:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+[2.721s]    21 |     void handle_turn_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+[2.721s]       |                                                    [01;31m[K^~~~~~~~[m[K
+[2.721s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.721s]    21 |     void handle_turn_request(const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+[2.721s]       |                                                                                   [01;31m[K^[m[K
+[2.726s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:52:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+[2.726s]    21 |     void handle_turn_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+[2.726s]       |                                                    [01;31m[K^~~~~~~~[m[K
+[2.726s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.726s]    21 |     void handle_turn_request(const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+[2.726s]       |                                                                                   [01;31m[K^[m[K
+[2.727s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:36:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[2.727s]    21 |     void handle_turn_request(const [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Request> request,
+[2.727s]       |                                    [01;31m[K^~~[m[K
+[2.727s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:52:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' has not been declared
+[2.727s]    21 |     void handle_turn_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+[2.727s]       |                                                    [01;31m[K^~~~~~~~[m[K
+[2.727s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:30:[m[K [01;31m[Kerror: [m[Kclass template placeholder '[01m[Kstd::shared_ptr[m[K' not permitted in this context
+[2.727s]    21 |     void handle_turn_request([01;31m[Kconst[m[K std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+[2.727s]       |                              [01;31m[K^~~~~[m[K
+[2.731s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+[2.731s]    22 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+[2.731s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.731s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.731s]    22 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+[2.731s]       |                                                         [01;31m[K^[m[K
+[2.736s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+[2.736s]    22 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+[2.736s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.736s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.736s]    22 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+[2.736s]       |                                                         [01;31m[K^[m[K
+[2.741s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+[2.741s]    22 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+[2.741s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.742s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.742s]    22 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+[2.742s]       |                                                         [01;31m[K^[m[K
+[2.742s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[2.742s]    22 |         [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Response> response) {
+[2.742s]       |         [01;31m[K^~~[m[K
+[2.742s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' has not been declared
+[2.742s]    22 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+[2.742s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.743s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder '[01m[Kstd::shared_ptr[m[K' not permitted in this context
+[2.743s]    22 |         [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Response> response) {
+[2.743s]       |         [01;31m[K^~~[m[K
+[2.743s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:20:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K}[m[K' at end of input
+[2.743s]    23 |         RCLCPP_INFO[01;31m[K([m[Kthis->rclcpp::get_logger("Handle Turn Service Request");
+[2.743s]       |                    [01;31m[K^[m[K
+[2.743s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:8:1:[m[K [01;36m[Knote: [m[Kto match this '[01m[K{[m[K'
+[2.743s]     8 | [01;36m[K{[m[K
+[2.744s]       | [01;36m[K^[m[K
+[2.747s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:[m[K In constructor '[01m[KTurnServiceServer::TurnServiceServer()[m[K':
+[2.747s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:13:9:[m[K [01;31m[Kerror: [m[K'[01m[Kservice_[m[K' was not declared in this scope
+[2.747s]    13 |         [01;31m[Kservice_[m[K = this->create_service<std_srvs::srv::Trigger>
+[2.748s]       |         [01;31m[K^~~~~~~~[m[K
+[2.752s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:13:41:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+[2.752s]    13 |         service_ = this->create_service<[01;31m[Kstd_srvs[m[K::srv::Trigger>
+[2.753s]       |                                         [01;31m[K^~~~~~~~[m[K
+[2.753s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:13:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.753s]    13 |         service_ = this->[01;31m[Kcreate_service<std_srvs::srv::Trigger>[m[K
+[2.753s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.759s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:14:13:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[KTurnServiceServer::create_service<<expression error> >(std::string&, std::_Bind_helper<false, void (TurnServiceServer::*)(...), TurnServiceServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K'
+[2.759s]    13 |         service_ = [01;31m[Kthis->create_service<std_srvs::srv::Trigger>[m[K
+[2.759s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.759s]    14 | [01;31m[K            (name_service,[m[K
+[2.759s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.759s]    15 | [01;31m[K            std::bind(&TurnServiceServer::handle_turn_request,[m[K
+[2.759s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.760s]    16 | [01;31m[K            this,[m[K
+[2.760s]       |             [01;31m[K~~~~~[m[K
+[2.760s]    17 | [01;31m[K            std::placeholders::_1, std::placeholders::_2))[m[K;
+[2.760s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.760s] In file included from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:3[m[K:
+[2.760s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K'
+[2.760s]   267 |   [01;36m[Kcreate_service[m[K(
+[2.760s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.760s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.760s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:14:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.760s]    13 |         service_ = [01;31m[Kthis->create_service<std_srvs::srv::Trigger>[m[K
+[2.760s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.760s]    14 | [01;31m[K            (name_service,[m[K
+[2.760s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.760s]    15 | [01;31m[K            std::bind(&TurnServiceServer::handle_turn_request,[m[K
+[2.761s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.761s]    16 | [01;31m[K            this,[m[K
+[2.761s]       |             [01;31m[K~~~~~[m[K
+[2.761s]    17 | [01;31m[K            std::placeholders::_1, std::placeholders::_2))[m[K;
+[2.761s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.768s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:[m[K In member function '[01m[Kvoid TurnServiceServer::handle_turn_request(...)[m[K':
+[2.768s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:9:[m[K [01;31m[Kerror: [m[K'[01m[KRCLCPP_INFO[m[K' was not declared in this scope
+[2.769s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Handle Turn Service Request");
+[2.769s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.769s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:20:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K}[m[K' at end of input
+[2.769s]    23 |         RCLCPP_INFO[01;31m[K([m[Kthis->rclcpp::get_logger("Handle Turn Service Request");
+[2.769s]       |                    [01;31m[K^[m[K
+[2.769s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:69:[m[K [01;36m[Knote: [m[Kto match this '[01m[K{[m[K'
+[2.769s]    22 |         std::shared_ptr<std_srvs::srv::Trigger::Response> response) [01;36m[K{[m[K
+[2.769s]       |                                                                     [01;36m[K^[m[K
+[2.770s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:[m[K At global scope:
+[2.770s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:20:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.770s]    23 |         RCLCPP_INFO[01;31m[K([m[Kthis->rclcpp::get_logger("Handle Turn Service Request");
+[2.770s]       |                    [01;31m[K^[m[K
+[3.140s] gmake[2]: *** [CMakeFiles/turn_s_client_executable.dir/build.make:76: CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o] Error 1
+[3.140s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turn_s_client_executable.dir/all] Error 2
+[3.140s] gmake[1]: *** Waiting for unfinished jobs....
+[3.194s] gmake[2]: *** [CMakeFiles/turn_s_server_executable.dir/build.make:76: CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o] Error 1
+[3.194s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turn_s_server_executable.dir/all] Error 2
+[3.194s] gmake: *** [Makefile:146: all] Error 2
+[3.196s] Invoked command in '/home/user/ros2_ws/src/build/services_quiz' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/services_quiz -- -j8 -l8

@@ -1,0 +1,11 @@
+/home/user/ros2_ws/src/build/services_quiz/CMakeFiles/uninstall.dir
+/home/user/ros2_ws/src/build/services_quiz/CMakeFiles/services_quiz_uninstall.dir
+/home/user/ros2_ws/src/build/services_quiz/CMakeFiles/turn_s_client_executable.dir
+/home/user/ros2_ws/src/build/services_quiz/CMakeFiles/turn_s_server_executable.dir
+/home/user/ros2_ws/src/build/services_quiz/CMakeFiles/test.dir
+/home/user/ros2_ws/src/build/services_quiz/CMakeFiles/edit_cache.dir
+/home/user/ros2_ws/src/build/services_quiz/CMakeFiles/rebuild_cache.dir
+/home/user/ros2_ws/src/build/services_quiz/CMakeFiles/list_install_components.dir
+/home/user/ros2_ws/src/build/services_quiz/CMakeFiles/install.dir
+/home/user/ros2_ws/src/build/services_quiz/CMakeFiles/install/local.dir
+/home/user/ros2_ws/src/build/services_quiz/CMakeFiles/install/strip.dir

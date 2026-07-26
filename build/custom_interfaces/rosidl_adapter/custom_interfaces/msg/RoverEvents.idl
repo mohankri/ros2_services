@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interfaces/msg/RoverEvents.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module custom_interfaces {
+  module msg {
+    module RoverEvents_Constants {
+      @verbatim (language="comment", text=
+        "Event type constants")
+      const uint8 EVENT_NONE = 0;
+      const uint8 EVENT_OBSTACLE_DETECTED = 1;
+      const uint8 EVENT_OBSTACLE_CLEARED = 2;
+      const uint8 EVENT_PATROL_STARTED = 3;
+      const uint8 EVENT_PATROL_WAYPOINT_REACHED = 4;
+      const uint8 EVENT_PATROL_COMPLETED = 5;
+      const uint8 EVENT_NAV_GOAL_FAILED = 6;
+      const uint8 EVENT_LOW_BATTERY = 7;
+      const uint8 EVENT_EMERGENCY_STOP = 8;
+    };
+    @verbatim (language="comment", text=
+      "RoverEvents.msg — rover state/event notifications")
+    struct RoverEvents {
+      std_msgs::msg::Header header;
+
+      uint8 event_type;
+
+      @verbatim (language="comment", text=
+        "Human-readable detail (e.g. failure reason)")
+      string description;
+
+      @verbatim (language="comment", text=
+        "Pose where the event occurred")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "Distance to obstacle in meters (valid for obstacle events)")
+      float obstacle_distance;
+
+      @verbatim (language="comment", text=
+        "Waypoint index (valid for patrol events)")
+      int32 waypoint_index;
+    };
+  };
+};

@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target text_recog_s_server_executable[0m
+[35m[1mConsolidate compiler generated dependencies of target text_recog_executable[0m
+[35m[1mConsolidate compiler generated dependencies of target text_recog_s_client_executable[0m
+[35m[1mConsolidate compiler generated dependencies of target mars_rover_s_server_executable[0m
+[ 25%] Built target text_recog_executable
+[ 50%] Built target text_recog_s_server_executable
+[ 75%] Built target text_recog_s_client_executable
+[100%] Built target mars_rover_s_server_executable
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/text_recog_s_client_executable
+-- Set runtime path of "/home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/text_recog_s_client_executable" to ""
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/text_recog_s_server_executable
+-- Set runtime path of "/home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/text_recog_s_server_executable" to ""
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/text_recog_executable
+-- Set runtime path of "/home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/text_recog_executable" to ""
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/mars_rover_s_server_executable
+-- Set runtime path of "/home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/mars_rover_s_server_executable" to ""
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks//launch
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/ament_index/resource_index/package_run_dependencies/mars_rover_tasks
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/ament_index/resource_index/parent_prefix_path/mars_rover_tasks
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/path.sh
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/path.dsv
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.bash
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.sh
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.zsh
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.dsv
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.dsv
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/ament_index/resource_index/packages/mars_rover_tasks
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/cmake/mars_rover_tasksConfig.cmake
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/cmake/mars_rover_tasksConfig-version.cmake
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.xml

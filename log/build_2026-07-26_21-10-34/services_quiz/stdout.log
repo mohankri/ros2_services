@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target turn_s_client_executable[0m
+[ 50%] Built target turn_s_server_executable
+[ 75%] [32mBuilding CXX object CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turn_s_client_executable[0m
+[100%] Built target turn_s_client_executable
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_client_executable
+-- Set runtime path of "/home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_client_executable" to ""
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_server_executable
+-- Set runtime path of "/home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_server_executable" to ""
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/package_run_dependencies/services_quiz
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/parent_prefix_path/services_quiz
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/path.sh
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/path.dsv
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.bash
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.sh
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.zsh
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.dsv
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.dsv
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/packages/services_quiz
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/cmake/services_quizConfig.cmake
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/cmake/services_quizConfig-version.cmake
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.xml

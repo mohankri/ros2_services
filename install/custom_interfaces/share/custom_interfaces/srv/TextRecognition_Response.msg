@@ -1,0 +1,6 @@
+
+bool success  # was label string found?
+int32 start_x # X axis coordinate of Start point of Bounding Box
+int32 start_y # Y axis coordinate of Start point of Bounding Box
+int32 end_x   # X axis coordinate of End point of Bounding Box
+int32 end_y   # Y axis coordinate of End point of Bounding Box

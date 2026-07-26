@@ -1,0 +1,14 @@
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K In constructor '[01m[KTurnServiceClient::TurnServiceClient()[m[K':
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:15:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator '[01m[Koperator""s[m[K'
+   15 |         while (!client_->wait_for_service([01;31m[K1s[m[K)) {
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:40:31:[m[K [01;31m[Kerror: [m[K'[01m[Kvoid TurnServiceClient::send_turn_request()[m[K' is private within this context
+   40 |     [01;31m[Kclient_->send_turn_request()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+   26 |     void [01;36m[Ksend_turn_request[m[K() {
+      |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turn_s_client_executable.dir/build.make:76: CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turn_s_client_executable.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

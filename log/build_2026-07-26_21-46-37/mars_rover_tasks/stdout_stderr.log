@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target text_recog_s_client_executable[0m
+[ 25%] Built target mars_rover_s_server_executable
+[ 50%] Built target text_recog_executable
+[ 87%] Built target text_recog_s_client_executable
+[100%] Built target text_recog_s_server_executable
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/text_recog_s_client_executable
+-- Set runtime path of "/home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/text_recog_s_client_executable" to ""
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/text_recog_s_server_executable
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/text_recog_executable
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/lib/mars_rover_tasks/mars_rover_s_server_executable
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks//launch
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/ament_index/resource_index/package_run_dependencies/mars_rover_tasks
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/ament_index/resource_index/parent_prefix_path/mars_rover_tasks
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/local_setup.dsv
+-- Installing: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.dsv
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/ament_index/resource_index/packages/mars_rover_tasks
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/cmake/mars_rover_tasksConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/cmake/mars_rover_tasksConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/src/install/mars_rover_tasks/share/mars_rover_tasks/package.xml

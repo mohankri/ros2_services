@@ -1,0 +1,76 @@
+[35m[1mConsolidate compiler generated dependencies of target turn_s_client_executable[0m
+[35m[1mConsolidate compiler generated dependencies of target turn_s_server_executable[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:29:20:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   29 |     rclcpp::Client<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr client_;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:29:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |     rclcpp::Client<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr client_;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:29:45:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' at end of member declaration
+   29 |     rclcpp::Client<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K client_;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:29:55:[m[K [01;31m[Kerror: [m[K'[01m[Kclient_[m[K' does not name a type
+   29 |     rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kclient_[m[K;
+      |                                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:31:2:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' after class definition
+   31 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K In constructor '[01m[KTurnServiceClient::TurnServiceClient()[m[K':
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:10:9:[m[K [01;31m[Kerror: [m[K'[01m[Kclient_[m[K' was not declared in this scope
+   10 |         [01;31m[Kclient_[m[K = this->create_client<std_srvs::srv::Trigger>
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:10:39:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   10 |         client_ = this->create_client<[01;31m[Kstd_srvs[m[K::srv::Trigger>
+      |                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:10:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   10 |         client_ = this->[01;31m[Kcreate_client<std_srvs::srv::Trigger>[m[K
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:11:13:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[KTurnServiceClient::create_client<<expression error> >(std::string&)[m[K'
+   10 |         client_ = [01;31m[Kthis->create_client<std_srvs::srv::Trigger>[m[K
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   11 | [01;31m[K            (name_service)[m[K;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K'
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:11:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |         client_ = [01;31m[Kthis->create_client<std_srvs::srv::Trigger>[m[K
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   11 | [01;31m[K            (name_service)[m[K;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:14:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator '[01m[Koperator""s[m[K'
+   14 |         while (!client_->wait_for_service([01;31m[K1s[m[K)) {
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:39:31:[m[K [01;31m[Kerror: [m[K'[01m[Kvoid TurnServiceClient::send_turn_request()[m[K' is private within this context
+   39 |     [01;31m[Kclient_->send_turn_request()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:25:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+   25 |     void [01;36m[Ksend_turn_request[m[K() {
+      |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:28:2:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' after class definition
+   28 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:[m[K In member function '[01m[Kvoid TurnServiceServer::handle_turn_request(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K':
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:85:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Krequest[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   22 |     void handle_turn_request([01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request[m[K,
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:59:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   23 |         [01;35m[Kstd::shared_ptr<std_srvs::srv::Trigger::Response> response[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turn_s_client_executable.dir/build.make:76: CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turn_s_client_executable.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/turn_s_server_executable.dir/build.make:76: CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turn_s_server_executable.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,33 @@
+[0.028s] Invoking command in '/home/user/ros2_ws/src/build/services_quiz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/services_quiz -- -j8 -l8
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target turn_s_client_executable[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target turn_s_server_executable[0m
+[0.141s] [ 50%] Built target turn_s_client_executable
+[0.155s] [ 75%] [32mBuilding CXX object CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o[0m
+[2.688s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:[m[K In member function '[01m[Kvoid TurnServiceServer::handle_turn_request(std::shared_ptr<services_quiz_srv::srv::Turn_Request_<std::allocator<void> > >, std::shared_ptr<services_quiz_srv::srv::Turn_Response_<std::allocator<void> > >)[m[K':
+[2.688s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:27:65:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.688s]    27 |         [01;35m[Kstd::shared_ptr<services_quiz_srv::srv::Turn::Response> response[m[K) {
+[2.688s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.846s] [100%] [32m[1mLinking CXX executable turn_s_server_executable[0m
+[3.992s] [100%] Built target turn_s_server_executable
+[4.002s] Invoked command in '/home/user/ros2_ws/src/build/services_quiz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/services_quiz -- -j8 -l8
+[4.043s] Invoking command in '/home/user/ros2_ws/src/build/services_quiz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/services_quiz
+[4.050s] -- Install configuration: ""
+[4.050s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_client_executable
+[4.050s] -- Installing: /home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_server_executable
+[4.052s] -- Set runtime path of "/home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_server_executable" to ""
+[4.052s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/package_run_dependencies/services_quiz
+[4.052s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/parent_prefix_path/services_quiz
+[4.052s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/ament_prefix_path.sh
+[4.052s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/ament_prefix_path.dsv
+[4.053s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/path.sh
+[4.053s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/path.dsv
+[4.053s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.bash
+[4.053s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.sh
+[4.053s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.zsh
+[4.053s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.dsv
+[4.053s] -- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.dsv
+[4.053s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/packages/services_quiz
+[4.053s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/cmake/services_quizConfig.cmake
+[4.053s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/cmake/services_quizConfig-version.cmake
+[4.053s] -- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.xml
+[4.055s] Invoked command in '/home/user/ros2_ws/src/build/services_quiz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/services_quiz

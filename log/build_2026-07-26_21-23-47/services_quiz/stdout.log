@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target turn_s_server_executable[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o[0m
+[ 75%] Built target turn_s_server_executable
+[100%] [32m[1mLinking CXX executable turn_s_client_executable[0m
+[100%] Built target turn_s_client_executable
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_client_executable
+-- Set runtime path of "/home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_client_executable" to ""
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_server_executable
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/package_run_dependencies/services_quiz
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/parent_prefix_path/services_quiz
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/local_setup.dsv
+-- Installing: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.dsv
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/packages/services_quiz
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/cmake/services_quizConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/cmake/services_quizConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/package.xml

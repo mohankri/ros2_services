@@ -1,0 +1,23 @@
+[0.025s] Invoking command in '/home/user/ros2_ws/src/build/services_quiz_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/services_quiz_srv -- -j8 -l8
+[0.106s] [  3%] Built target services_quiz_srv__cpp
+[0.115s] [ 12%] Built target services_quiz_srv__rosidl_generator_c
+[0.138s] [ 12%] Built target ament_cmake_python_copy_services_quiz_srv
+[0.165s] [ 22%] Built target services_quiz_srv__rosidl_typesupport_cpp
+[0.174s] [ 32%] Built target services_quiz_srv__rosidl_typesupport_fastrtps_cpp
+[0.178s] [ 41%] Built target services_quiz_srv__rosidl_typesupport_c
+[0.184s] [ 51%] Built target services_quiz_srv__rosidl_typesupport_introspection_c
+[0.186s] [ 61%] Built target services_quiz_srv__rosidl_typesupport_introspection_cpp
+[0.193s] [ 70%] Built target services_quiz_srv__rosidl_typesupport_fastrtps_c
+[0.225s] [ 70%] Built target services_quiz_srv
+[0.248s] [ 74%] Built target services_quiz_srv__py
+[0.274s] [ 80%] Built target services_quiz_srv__rosidl_generator_py
+[0.312s] [ 87%] Built target services_quiz_srv__rosidl_typesupport_introspection_c__pyext
+[0.321s] [ 93%] Built target services_quiz_srv__rosidl_typesupport_c__pyext
+[0.331s] [100%] Built target services_quiz_srv__rosidl_typesupport_fastrtps_c__pyext
+[0.538s] running egg_info
+[0.539s] writing services_quiz_srv.egg-info/PKG-INFO
+[0.539s] writing dependency_links to services_quiz_srv.egg-info/dependency_links.txt
+[0.539s] writing top-level names to services_quiz_srv.egg-info/top_level.txt
+[0.542s] reading manifest file 'services_quiz_srv.egg-info/SOURCES.txt'
+[0.542s] writing manifest file 'services_quiz_srv.egg-info/SOURCES.txt'
+[0.576s] [100%] Built target ament_cmake_python_build_services_quiz_srv_egg

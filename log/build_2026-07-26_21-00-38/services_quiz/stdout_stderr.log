@@ -1,0 +1,267 @@
+[35m[1mConsolidate compiler generated dependencies of target turn_s_client_executable[0m
+[35m[1mConsolidate compiler generated dependencies of target turn_s_server_executable[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:52:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   21 |     void handle_turn_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     void handle_turn_request(const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:52:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   21 |     void handle_turn_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     void handle_turn_request(const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:52:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   21 |     void handle_turn_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     void handle_turn_request(const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:36:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   21 |     void handle_turn_request(const [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                    [01;31m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:52:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' has not been declared
+   21 |     void handle_turn_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:21:30:[m[K [01;31m[Kerror: [m[Kclass template placeholder '[01m[Kstd::shared_ptr[m[K' not permitted in this context
+   21 |     void handle_turn_request([01;31m[Kconst[m[K std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                              [01;31m[K^~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   22 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   22 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   22 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |         std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   22 |         [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Response> response) {
+      |         [01;31m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' has not been declared
+   22 |         std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:22:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder '[01m[Kstd::shared_ptr[m[K' not permitted in this context
+   22 |         [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Response> response) {
+      |         [01;31m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:26:21:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   26 |     rclcpp::Service<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr service_;
+      |                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:26:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |     rclcpp::Service<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr service_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:26:46:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' at end of member declaration
+   26 |     rclcpp::Service<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K service_;
+      |                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:26:56:[m[K [01;31m[Kerror: [m[K'[01m[Kservice_[m[K' does not name a type
+   26 |     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kservice_[m[K;
+      |                                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:27:2:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' after class definition
+   27 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:[m[K In constructor '[01m[KTurnServiceServer::TurnServiceServer()[m[K':
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:13:9:[m[K [01;31m[Kerror: [m[K'[01m[Kservice_[m[K' was not declared in this scope
+   13 |         [01;31m[Kservice_[m[K = this->create_service<std_srvs::srv::Trigger>
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:29:20:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   29 |     rclcpp::Client<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr client_;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:29:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |     rclcpp::Client<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr client_;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:29:45:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' at end of member declaration
+   29 |     rclcpp::Client<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K client_;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:29:55:[m[K [01;31m[Kerror: [m[K'[01m[Kclient_[m[K' does not name a type
+   29 |     rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kclient_[m[K;
+      |                                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:31:2:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' after class definition
+   31 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:13:41:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   13 |         service_ = this->create_service<[01;31m[Kstd_srvs[m[K::srv::Trigger>
+      |                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:13:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   13 |         service_ = this->[01;31m[Kcreate_service<std_srvs::srv::Trigger>[m[K
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K In constructor '[01m[KTurnServiceClient::TurnServiceClient()[m[K':
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:10:9:[m[K [01;31m[Kerror: [m[K'[01m[Kclient_[m[K' was not declared in this scope
+   10 |         [01;31m[Kclient_[m[K = this->create_client<std_srvs::srv::Trigger>
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:14:13:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[KTurnServiceServer::create_service<<expression error> >(std::string&, std::_Bind_helper<false, void (TurnServiceServer::*)(...), TurnServiceServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K'
+   13 |         service_ = [01;31m[Kthis->create_service<std_srvs::srv::Trigger>[m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   14 | [01;31m[K            (name_service,[m[K
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+   15 | [01;31m[K            std::bind(&TurnServiceServer::handle_turn_request,[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   16 | [01;31m[K            this,[m[K
+      |             [01;31m[K~~~~~[m[K
+   17 | [01;31m[K            std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K'
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:14:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |         service_ = [01;31m[Kthis->create_service<std_srvs::srv::Trigger>[m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   14 | [01;31m[K            (name_service,[m[K
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+   15 | [01;31m[K            std::bind(&TurnServiceServer::handle_turn_request,[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   16 | [01;31m[K            this,[m[K
+      |             [01;31m[K~~~~~[m[K
+   17 | [01;31m[K            std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:2[m[K:
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:[m[K In member function '[01m[Kvoid TurnServiceServer::handle_turn_request(...)[m[K':
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:27:[m[K [01;31m[Kerror: [m[K'[01m[Krclcpp::get_logger[m[K' is not a class member
+   23 |         RCLCPP_INFO(this->[01;31m[Krclcpp[m[K::get_logger("Handle Turn Service Request"));
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:27:[m[K [01;31m[Kerror: [m[K'[01m[Krclcpp::get_logger[m[K' is not a class member
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Handle Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:9:[m[K [01;31m[Kerror: [m[K'[01m[K<declaration error>[m[K' is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   23 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Handle Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Handle Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:9:[m[K [01;31m[Kerror: [m[K'[01m[K<declaration error>[m[K' is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   23 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Handle Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Handle Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:2[m[K:
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:27:[m[K [01;31m[Kerror: [m[K'[01m[Krclcpp::get_logger[m[K' is not a class member
+   23 |         RCLCPP_INFO(this->[01;31m[Krclcpp[m[K::get_logger("Handle Turn Service Request"));
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:27:[m[K [01;31m[Kerror: [m[K'[01m[Krclcpp::get_logger[m[K' is not a class member
+   23 |         RCLCPP_INFO(this->[01;31m[Krclcpp[m[K::get_logger("Handle Turn Service Request"));
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:23:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K)[m[K' token
+   23 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Handle Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:10:39:[m[K [01;31m[Kerror: [m[K'[01m[Kstd_srvs[m[K' was not declared in this scope
+   10 |         client_ = this->create_client<[01;31m[Kstd_srvs[m[K::srv::Trigger>
+      |                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:10:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   10 |         client_ = this->[01;31m[Kcreate_client<std_srvs::srv::Trigger>[m[K
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:11:13:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[KTurnServiceClient::create_client<<expression error> >(std::string&)[m[K'
+   10 |         client_ = [01;31m[Kthis->create_client<std_srvs::srv::Trigger>[m[K
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   11 | [01;31m[K            (name_service)[m[K;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K'
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:11:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |         client_ = [01;31m[Kthis->create_client<std_srvs::srv::Trigger>[m[K
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   11 | [01;31m[K            (name_service)[m[K;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:14:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator '[01m[Koperator""s[m[K'
+   14 |         while (!client_->wait_for_service([01;31m[K1s[m[K)) {
+      |                                           [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:1[m[K:
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K In member function '[01m[Kvoid TurnServiceClient::send_turn_request()[m[K':
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:27:[m[K [01;31m[Kerror: [m[K'[01m[Krclcpp::get_logger[m[K' is not a class member
+   26 |         RCLCPP_INFO(this->[01;31m[Krclcpp[m[K::get_logger("Send Turn Service Request"));
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:27:[m[K [01;31m[Kerror: [m[K'[01m[Krclcpp::get_logger[m[K' is not a class member
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Send Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:9:[m[K [01;31m[Kerror: [m[K'[01m[K<declaration error>[m[K' is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   26 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Send Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Send Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:9:[m[K [01;31m[Kerror: [m[K'[01m[K<declaration error>[m[K' is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   26 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Send Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Send Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:1[m[K:
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:27:[m[K [01;31m[Kerror: [m[K'[01m[Krclcpp::get_logger[m[K' is not a class member
+   26 |         RCLCPP_INFO(this->[01;31m[Krclcpp[m[K::get_logger("Send Turn Service Request"));
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:27:[m[K [01;31m[Kerror: [m[K'[01m[Krclcpp::get_logger[m[K' is not a class member
+   26 |         RCLCPP_INFO(this->[01;31m[Krclcpp[m[K::get_logger("Send Turn Service Request"));
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:26:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K)[m[K' token
+   26 |         [01;31m[KRCLCPP_INFO[m[K(this->rclcpp::get_logger("Send Turn Service Request"));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:38:20:[m[K [01;31m[Kerror: [m[K'[01m[Kmake_shared[m[K' was not declared in this scope; did you mean '[01m[Kstd::make_shared[m[K'?
+   38 |     auto client_ = [01;31m[Kmake_shared[m[K<TurnServiceClient>();
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+      |                    [32m[Kstd::make_shared[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K'[01m[Kstd::make_shared[m[K' declared here
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:38:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K>[m[K' token
+   38 |     auto client_ = make_shared<TurnServiceClient[01;31m[K>[m[K();
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:38:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K)[m[K' token
+   38 |     auto client_ = make_shared<TurnServiceClient>([01;31m[K)[m[K;
+      |                                                   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/turn_s_server_executable.dir/build.make:76: CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turn_s_server_executable.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/turn_s_client_executable.dir/build.make:76: CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turn_s_client_executable.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,11 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/text_recog_s_client_executable.dir/src/text_recog_s_client.cpp.o[0m
+[ 37%] Built target mars_rover_s_server_executable
+[ 62%] Built target text_recog_s_server_executable
+[ 87%] Built target text_recog_executable
+[01m[K/home/user/ros2_ws/src/mars_rover_tasks/src/text_recog_s_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kservices_quiz_srv/srv/turn.hpp: No such file or directory
+    3 | #include [01;31m[K<services_quiz_srv/srv/turn.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/text_recog_s_client_executable.dir/build.make:76: CMakeFiles/text_recog_s_client_executable.dir/src/text_recog_s_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/text_recog_s_client_executable.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

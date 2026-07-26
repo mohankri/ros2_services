@@ -1,0 +1,87 @@
+[0.030s] Invoking command in '/home/user/ros2_ws/src/build/services_quiz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/services_quiz -- -j8 -l8
+[0.116s] [ 25%] [32mBuilding CXX object CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o[0m
+[0.121s] [ 75%] Built target turn_s_server_executable
+[2.649s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K In constructor '[01m[KTurnServiceClient::TurnServiceClient()[m[K':
+[2.649s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:16:26:[m[K [01;31m[Kerror: [m[Kno match for '[01m[Koperator=[m[K' (operand types are '[01m[Krclcpp::Client<std_srvs::srv::Trigger>::SharedPtr[m[K' {aka '[01m[Kstd::shared_ptr<rclcpp::Client<std_srvs::srv::Trigger> >[m[K'} and '[01m[Krclcpp::Client<services_quiz_srv::srv::Turn>::SharedPtr[m[K' {aka '[01m[Kstd::shared_ptr<rclcpp::Client<services_quiz_srv::srv::Turn> >[m[K'})
+[2.650s]    16 |             (name_service[01;31m[K)[m[K;
+[2.650s]       |                          [01;31m[K^[m[K
+[2.650s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[2.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.650s]                  from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:1[m[K:
+[2.650s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Client<std_srvs::srv::Trigger>][m[K'
+[2.650s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[2.650s]       |         [01;36m[K^~~~~~~~[m[K
+[2.650s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.650s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of '[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Client<services_quiz_srv::srv::Turn> >&; _Tp = rclcpp::Client<std_srvs::srv::Trigger>][m[K':
+[2.650s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:2:[m[K   required by substitution of '[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Client<std_srvs::srv::Trigger> >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Client<std_srvs::srv::Trigger> >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Client<services_quiz_srv::srv::Turn>][m[K'
+[2.650s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:16:26:[m[K   required from here
+[2.650s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named '[01m[Ktype[m[K' in '[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Client<std_srvs::srv::Trigger> >&>[m[K'
+[2.650s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[2.650s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[2.650s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Client<std_srvs::srv::Trigger>][m[K'
+[2.651s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[2.651s]       |         [01;36m[K^~~~~~~~[m[K
+[2.651s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.651s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:16:26:[m[K [01;36m[Knote: [m[K  '[01m[Krclcpp::Client<services_quiz_srv::srv::Turn>::SharedPtr[m[K' {aka '[01m[Kstd::shared_ptr<rclcpp::Client<services_quiz_srv::srv::Turn> >[m[K'} is not derived from '[01m[Kstd::auto_ptr<_Up>[m[K'
+[2.651s]    16 |             (name_service[01;36m[K)[m[K;
+[2.651s]       |                          [01;36m[K^[m[K
+[2.651s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[2.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.651s]                  from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:1[m[K:
+[2.651s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Client<std_srvs::srv::Trigger>][m[K'
+[2.651s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[2.651s]       |         [01;36m[K^~~~~~~~[m[K
+[2.651s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.651s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of '[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Client<services_quiz_srv::srv::Turn> >; _Tp = rclcpp::Client<std_srvs::srv::Trigger>][m[K':
+[2.652s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:2:[m[K   required by substitution of '[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Client<std_srvs::srv::Trigger> >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Client<std_srvs::srv::Trigger> >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Client<services_quiz_srv::srv::Turn>][m[K'
+[2.652s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:16:26:[m[K   required from here
+[2.652s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named '[01m[Ktype[m[K' in '[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Client<std_srvs::srv::Trigger> >&>[m[K'
+[2.652s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[2.652s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[2.652s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Client<std_srvs::srv::Trigger>][m[K'
+[2.652s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[2.652s]       |         [01;36m[K^~~~~~~~[m[K
+[2.652s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.652s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:16:26:[m[K [01;36m[Knote: [m[K  '[01m[Krclcpp::Client<services_quiz_srv::srv::Turn>::SharedPtr[m[K' {aka '[01m[Kstd::shared_ptr<rclcpp::Client<services_quiz_srv::srv::Turn> >[m[K'} is not derived from '[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K'
+[2.653s]    16 |             (name_service[01;36m[K)[m[K;
+[2.653s]       |                          [01;36m[K^[m[K
+[2.653s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[2.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.653s]                  from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:1[m[K:
+[2.653s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Client<std_srvs::srv::Trigger>][m[K'
+[2.654s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[2.654s]       |                   [01;36m[K^~~~~~~~[m[K
+[2.654s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Krclcpp::Client<services_quiz_srv::srv::Turn>::SharedPtr[m[K' {aka '[01m[Kstd::shared_ptr<rclcpp::Client<services_quiz_srv::srv::Turn> >[m[K'} to '[01m[Kconst std::shared_ptr<rclcpp::Client<std_srvs::srv::Trigger> >&[m[K'
+[2.654s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[2.654s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.654s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Client<std_srvs::srv::Trigger>][m[K'
+[2.654s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[2.654s]       |       [01;36m[K^~~~~~~~[m[K
+[2.654s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Krclcpp::Client<services_quiz_srv::srv::Turn>::SharedPtr[m[K' {aka '[01m[Kstd::shared_ptr<rclcpp::Client<services_quiz_srv::srv::Turn> >[m[K'} to '[01m[Kstd::shared_ptr<rclcpp::Client<std_srvs::srv::Trigger> >&&[m[K'
+[2.654s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[2.654s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[2.661s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:[m[K In member function '[01m[Kvoid TurnServiceClient::send_turn_request()[m[K':
+[2.661s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:33:41:[m[K [01;31m[Kerror: [m[K'[01m[Kservices_quiz[m[K' was not declared in this scope; did you mean '[01m[Kservices_quiz_srv[m[K'?
+[2.661s]    33 |         auto request = std::make_shared<[01;31m[Kservices_quiz[m[K::srv::Turn::Request>();
+[2.661s]       |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.661s]       |                                         [32m[Kservices_quiz_srv[m[K
+[2.661s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:33:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.661s]    33 |         auto request = std::[01;31m[Kmake_shared<services_quiz::srv::Turn::Request>[m[K();
+[2.661s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.661s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:33:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kmake_shared<<expression error> >()[m[K'
+[2.661s]    33 |         auto request = [01;31m[Kstd::make_shared<services_quiz::srv::Turn::Request>()[m[K;
+[2.661s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.661s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[2.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.662s]                  from [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:1[m[K:
+[2.662s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K'
+[2.662s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.662s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.662s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.662s] [01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_client.cpp:33:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.662s]    33 |         auto request = [01;31m[Kstd::make_shared<services_quiz::srv::Turn::Request>()[m[K;
+[2.662s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.175s] gmake[2]: *** [CMakeFiles/turn_s_client_executable.dir/build.make:76: CMakeFiles/turn_s_client_executable.dir/src/turn_s_client.cpp.o] Error 1
+[3.175s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turn_s_client_executable.dir/all] Error 2
+[3.175s] gmake: *** [Makefile:146: all] Error 2
+[3.177s] Invoked command in '/home/user/ros2_ws/src/build/services_quiz' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/tracetools_test:/home/simulations/ros2_sims_ws/install/tracetools_launch:/home/simulations/ros2_sims_ws/install/ros2trace:/home/simulations/ros2_sims_ws/install/tracetools_trace:/home/simulations/ros2_sims_ws/install/ros2trace_analysis:/home/simulations/ros2_sims_ws/install/tracetools_analysis:/home/simulations/ros2_sims_ws/install/tracetools_read:/home/simulations/ros2_sims_ws/install/test_tracetools_launch:/opt/ros/humble:/home/simulations/ros2_sims_ws/install/robot_description _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/services_quiz -- -j8 -l8
