@@ -1,6 +1,0 @@
-msg/RoverEvents.idl
-msg/RoverEvents.msg
-srv/TextRecognition.idl
-srv/TextRecognition.srv
-srv/TextRecognition_Request.msg
-srv/TextRecognition_Response.msg

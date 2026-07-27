@@ -1,7 +1,0 @@
-[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:[m[K In member function '[01m[Kvoid TurnServiceServer::handle_turn_request(std::shared_ptr<services_quiz_srv::srv::Turn_Request_<std::allocator<void> > >, std::shared_ptr<services_quiz_srv::srv::Turn_Response_<std::allocator<void> > >)[m[K':
-[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:26:91:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Krequest[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   26 |     void handle_turn_request([01;35m[Kconst std::shared_ptr<services_quiz_srv::srv::Turn::Request> request[m[K,
-      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
-[01m[K/home/user/ros2_ws/src/services_quiz/src/turn_s_server.cpp:27:65:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   27 |         [01;35m[Kstd::shared_ptr<services_quiz_srv::srv::Turn::Response> response[m[K) {
-      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
