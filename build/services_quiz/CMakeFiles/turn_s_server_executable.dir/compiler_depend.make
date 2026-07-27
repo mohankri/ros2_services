@@ -669,6 +669,12 @@ CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o: /home/user/ros2
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
   /home/user/ros2_ws/src/install/services_quiz_srv/include/services_quiz_srv/services_quiz_srv/srv/turn.hpp \
   /home/user/ros2_ws/src/install/services_quiz_srv/include/services_quiz_srv/services_quiz_srv/srv/detail/turn__struct.hpp \
   /home/user/ros2_ws/src/install/services_quiz_srv/include/services_quiz_srv/services_quiz_srv/srv/detail/turn__builder.hpp \
@@ -678,6 +684,8 @@ CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o: /home/user/ros2
 /home/user/ros2_ws/src/install/services_quiz_srv/include/services_quiz_srv/services_quiz_srv/srv/detail/turn__builder.hpp:
 
 /home/user/ros2_ws/src/install/services_quiz_srv/include/services_quiz_srv/services_quiz_srv/srv/turn.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
 
 /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp:
 
@@ -1033,6 +1041,8 @@ CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o: /home/user/ros2
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
@@ -1297,6 +1307,8 @@ CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o: /home/user/ros2
 
 /usr/include/c++/11/ctime:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
@@ -1310,6 +1322,8 @@ CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o: /home/user/ros2
 /home/user/ros2_ws/src/install/services_quiz_srv/include/services_quiz_srv/services_quiz_srv/srv/detail/turn__struct.hpp:
 
 /usr/include/c++/11/iosfwd:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
 /usr/include/c++/11/initializer_list:
 
@@ -1677,6 +1691,8 @@ CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o: /home/user/ros2
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:
+
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:
@@ -1974,6 +1990,8 @@ CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o: /home/user/ros2
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 

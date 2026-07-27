@@ -670,6 +670,12 @@ CMakeFiles/turn_s_server_executable.dir/src/turn_s_server.cpp.o
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
  /home/user/ros2_ws/src/install/services_quiz_srv/include/services_quiz_srv/services_quiz_srv/srv/turn.hpp
  /home/user/ros2_ws/src/install/services_quiz_srv/include/services_quiz_srv/services_quiz_srv/srv/detail/turn__struct.hpp
  /home/user/ros2_ws/src/install/services_quiz_srv/include/services_quiz_srv/services_quiz_srv/srv/detail/turn__builder.hpp

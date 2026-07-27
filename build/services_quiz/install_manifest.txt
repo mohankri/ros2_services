@@ -1,5 +1,7 @@
 /home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_client_executable
 /home/user/ros2_ws/src/install/services_quiz/lib/services_quiz/turn_s_server_executable
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/launch/services_quiz_client.launch.py
+/home/user/ros2_ws/src/install/services_quiz/share/services_quiz/launch/services_quiz_server.launch.py
 /home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/package_run_dependencies/services_quiz
 /home/user/ros2_ws/src/install/services_quiz/share/ament_index/resource_index/parent_prefix_path/services_quiz
 /home/user/ros2_ws/src/install/services_quiz/share/services_quiz/environment/ament_prefix_path.sh

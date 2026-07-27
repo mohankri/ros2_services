@@ -39,7 +39,17 @@ public:
 
         auto result_future = client_->async_send_request(request);
 
-
+        // Wait for the result
+        if (rclcpp::spin_until_future_complete(this->get_node_base_interface(),
+            result_future) == rclcpp::FutureReturnCode::SUCCESS)
+        {
+            auto response = result_future.get();
+            // Log the service response
+            RCLCPP_INFO(this->get_logger(), "Success: %s", 
+                response->success ? "true" : "false");
+        } else {
+            RCLCPP_ERROR(this->get_logger(), "Failed to call service");
+        }
     }
 private:
     rclcpp::Client<services_quiz_srv::srv::Turn>::SharedPtr client_;
@@ -53,9 +63,9 @@ main(int argc, char **argv)
 
     auto client_ = std::make_shared<TurnServiceClient>();
     
-    std::string direction = "left";
-    float angular_velocity = 10.0;
-    float time = 10;
+    std::string direction = "right";
+    float angular_velocity = 0.2; //rad/s
+    float time = 10; //10sec
 
     client_->send_turn_request(direction, angular_velocity, time);
 
