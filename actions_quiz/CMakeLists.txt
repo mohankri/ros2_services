@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(actions_quiz_msg)
+project(actions_quiz)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -8,11 +8,53 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
+find_package(rclcpp_action REQUIRED)
+find_package(leo_description REQUIRED)
 find_package(geometry_msgs REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
+find_package(nav2_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 find_package(action_msgs REQUIRED)
+find_package(actions_quiz_msg REQUIRED)
 
+add_executable(
+  actions_quiz_client
+  src/actions_quiz_client.cpp
+)
+
+add_executable(
+  actions_quiz_server
+  src/actions_quiz_server.cpp
+)
+
+ament_target_dependencies(
+  actions_quiz_client
+  rclcpp
+  rclcpp_action
+  actions_quiz_msg
+)
+
+ament_target_dependencies(
+  actions_quiz_server
+  rclcpp
+  rclcpp_action
+  nav2_msgs
+  tf2
+  tf2_geometry_msgs
+  actions_quiz_msg
+)
+
+install(
+	TARGETS
+    actions_quiz_client
+    actions_quiz_server
+	DESTINATION lib/${PROJECT_NAME}
+)
+
+install(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -25,13 +67,5 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-
-rosidl_generate_interfaces(${PROJECT_NAME}
-	"msg/RoverEvents.msg"
-  	"srv/TextRecognition.srv"
-   	"action/GoToPose.action"
-	"action/ActionQuizMessage.action"
-   	DEPENDENCIES std_msgs geometry_msgs
-)
 
 ament_package()

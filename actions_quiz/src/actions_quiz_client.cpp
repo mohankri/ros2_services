@@ -6,14 +6,14 @@
 
 //#include "leo_description/action/rotate.hpp"
 #include "action_msgs/msg/goal_status.hpp"
-#include "custom_interfaces/action/action_quiz_message.hpp"
+#include "actions_quiz_msg/action/action_quiz_message.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 
 class ActionQuizClient : public rclcpp::Node
 {
 public:
-    using ActionQuizMessage = custom_interfaces::action::ActionQuizMessage;
+    using ActionQuizMessage = actions_quiz_msg::action::ActionQuizMessage;
     using GoalHandleActionQuizMessage = rclcpp_action::ClientGoalHandle<ActionQuizMessage>;
 
     explicit ActionQuizClient(const rclcpp::NodeOptions &options)

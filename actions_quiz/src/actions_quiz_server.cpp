@@ -6,7 +6,7 @@
 #include <thread>
 
 #include "action_msgs/msg/goal_status.hpp"
-#include "custom_interfaces/action/action_quiz_message.hpp"
+#include "actions_quiz_msg/action/action_quiz_message.hpp"
 #include "geometry_msgs/msg/pose_with_covariance_stamped.hpp"
 #include "nav2_msgs/action/navigate_to_pose.hpp"
 #include "nav_msgs/msg/odometry.hpp"
@@ -18,7 +18,7 @@
 class ActionQuizServer : public rclcpp::Node {
 public:
 
-    using ActionQuizMessage = custom_interfaces::action::ActionQuizMessage;
+    using ActionQuizMessage = actions_quiz_msg::action::ActionQuizMessage;
     using GoalHandleActionQuizMessage = rclcpp_action::ServerGoalHandle<ActionQuizMessage>;
     using NavigateToPose = nav2_msgs::action::NavigateToPose;
 

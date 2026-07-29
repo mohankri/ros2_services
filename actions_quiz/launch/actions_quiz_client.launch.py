@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='actions_quiz_msg',
+            package='actions_quiz',
             executable='actions_quiz_client',
             output='screen'),
     ])
